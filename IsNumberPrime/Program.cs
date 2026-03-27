@@ -15,13 +15,13 @@ switch (nDividers)
 {
     case 0:
     case 1:
-        Console.WriteLine($"The number {ulNumber} is neither complex nor prime");
+        Console.WriteLine($"The number {ulNumber} is neither composite nor prime");
         break;
     case 2:
         Console.WriteLine($"The number {ulNumber} is prime");
         break;
     default:
-        Console.WriteLine($"The number {ulNumber} is complex");
+        Console.WriteLine($"The number {ulNumber} is composite");
         break;
 }   
 Console.Read();
