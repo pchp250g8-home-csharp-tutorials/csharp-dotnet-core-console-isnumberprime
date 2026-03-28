@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Input an integer positive number");
 UInt64.TryParse(Console.ReadLine(), out ulong ulNumber);
-Console.WriteLine($"The number {ulNumber} has the folowing dividers:");
+Console.WriteLine($"The number {ulNumber} has the folowing divisors:");
 var nDividers = 0;
 for (ulong i = 1; i <= ulNumber; i++)
 {
